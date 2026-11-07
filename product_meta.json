@@ -6,19 +6,38 @@
   "repository_name": "edu-short-video-script",
   "product_type": "Skill",
   "category": "01 招生营销中心",
-  "version": "1.0.0",
-  "status": "PACKAGE_READY",
-  "workbuddy_validation": "NOT_VERIFIED",
+  "version": "1.0.1",
+  "previous_version": "1.0.0",
+  "g5_status": "G5_STRENGTHENED",
+  "status": "G9_PRE_RELEASE_ACCEPTED",
+  "package_state": "GITHUB_PACKAGE_PRE_RELEASE_READY",
+  "runtime_status": "NOT_RUNTIME_VERIFIED",
+  "workbuddy_validation": "WORKBUDDY_VALIDATION_NOT_IN_SCOPE",
   "license": "Apache-2.0",
   "baseline_tag": "education-product-baseline-v1.0.0",
-  "package_path": "dist/edu-short-video-script-v1.0.0.zip",
+  "baseline_commit": "55f2295894f7b8106c18c6c77d3c11d2d7681d67",
+  "package_path": "dist/edu-short-video-script-v1.0.1.zip",
+  "previous_package_path": "dist/edu-short-video-script-v1.0.0.zip",
+  "previous_package_sha256": "8940344C9160D83A5EB587572E02C30196C69613CF6B6C8A326DABCE100A01D0",
   "calculator": false,
   "core_input": "选题、课程受众、视频时长、平台风格、拍摄条件、核心卖点",
   "main_output": "口播稿、分镜表、镜头清单、字幕要点、封面文案和拍摄提示",
+  "main_output_fields": [
+    "口播稿",
+    "分镜表",
+    "镜头清单",
+    "字幕要点",
+    "封面文案和拍摄提示"
+  ],
   "package_entries": [
     "edu-short-video-script/SKILL.md",
     "edu-short-video-script/references/DOMAIN_GUIDE.md",
     "edu-short-video-script/references/EXAMPLES.md",
-    "edu-short-video-script/templates/OUTPUT_TEMPLATE.md"
+    "edu-short-video-script/templates/OUTPUT_TEMPLATE.md",
+    "edu-short-video-script/README.md",
+    "edu-short-video-script/USAGE.md",
+    "edu-short-video-script/LICENSE",
+    "edu-short-video-script/THIRD_PARTY_NOTICES.md",
+    "edu-short-video-script/scripts/validate_input.js"
   ]
 }
